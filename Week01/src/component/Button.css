@@ -1,0 +1,32 @@
+.btn {
+  cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 14px;
+}
+
+/* btn add to cart */
+.btn-primary {
+  background-color: #457b9d;
+}
+.btn-primary:hover {
+  background-color: #1d3557;
+}
+
+/* btn delete */
+.btn-danger {
+  background-color: #e63946;
+}
+.btn-danger:hover {
+  background-color: #b5172b;
+}
+
+/* btn confirm */
+.btn-success {
+  background-color: #2a9d8f;
+}
+.btn-success:hover {
+  background-color: #1f7a6b;
+}
