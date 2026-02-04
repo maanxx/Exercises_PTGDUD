@@ -1,0 +1,26 @@
+.alert {
+  padding: 4px 12px;
+  margin-top: 15px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: white;
+}
+
+.alert-success {
+  background-color: #28a745;
+}
+
+.alert-warning {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.alert-error {
+    background-color: #dc3545;
+}
+
+.buttons button {
+  margin-right: 12px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
