@@ -1,6 +1,6 @@
 import ProductCard from "./component/productCard.jsx";
 import Button from "./component/Button.jsx";
-import Alert from "./component/Alert.jsx"
+import Alert from "./component/Alert.jsx";
 function App() {
   return (
     /*
@@ -17,6 +17,10 @@ function App() {
       <Button type={"success"}>Confirm</Button>
     </div>
     */
+
+    <div>
+      <Alert/>
+    </div>
   );
 }
 
