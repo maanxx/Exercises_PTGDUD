@@ -1,7 +1,10 @@
+import { useState } from "react";
 import ProductCard from "./component/productCard.jsx";
 import Button from "./component/Button.jsx";
 import Alert from "./component/Alert.jsx";
+import SignIn from "./component/SignIn.jsx";
 function App() {
+  const [show, setShow] = useState(false);
   return (
     /*
     <div style={{ padding: "40px" }}>
@@ -18,8 +21,13 @@ function App() {
     </div>
     */
 
-    <div>
+    /*<div>
       <Alert/>
+    </div>*/
+    <div>
+      <button onClick={() => setShow(true)}>Open Login</button>
+
+      <SignIn show={show} onClose={() => setShow(false)} />
     </div>
   );
 }
