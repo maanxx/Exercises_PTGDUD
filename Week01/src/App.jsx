@@ -3,6 +3,8 @@ import ProductCard from "./component/productCard.jsx";
 import Button from "./component/Button.jsx";
 import Alert from "./component/Alert.jsx";
 import SignIn from "./component/SignIn.jsx";
+import ProductList from "./component/ProductList.jsx";
+
 function App() {
   const [showLogin, setShowLogin] = useState(false);
   return (
@@ -32,6 +34,9 @@ function App() {
         onClose={() => setShowLogin(false)}
       />
     </div>*/
+    <div>
+      <ProductList />
+    </div>
   );
 }
 
