@@ -4,7 +4,7 @@ import Button from "./component/Button.jsx";
 import Alert from "./component/Alert.jsx";
 import SignIn from "./component/SignIn.jsx";
 function App() {
-  const [show, setShow] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
   return (
     /*
     <div style={{ padding: "40px" }}>
@@ -24,11 +24,14 @@ function App() {
     /*<div>
       <Alert/>
     </div>*/
-    <div>
-      <button onClick={() => setShow(true)}>Open Login</button>
+    /*<div style={{display: "flex", justifyContent: "center", alignItems: "center", height: "100vh"}}>
+      <button onClick={() => setShowLogin(true)}>Open Login</button>
 
-      <SignIn show={show} onClose={() => setShow(false)} />
-    </div>
+      <SignIn
+        show={showLogin}
+        onClose={() => setShowLogin(false)}
+      />
+    </div>*/
   );
 }
 

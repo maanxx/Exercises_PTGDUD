@@ -10,9 +10,49 @@
   transition: opacity 0.3s ease;
 }
 
-.overlay .show {
-    opacity: 1;
-    pointer-events: auto;
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
+.login-form {
+  background-color: white;
+  padding: 25px;
+  width: 320px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
 
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.login-form input:focus {
+  border-color: #457b9d;
+  box-shadow: 0 0 0 2px rgba(69, 123, 157, 0.2);
+}
+
+.login-btn {
+  padding: 10px;
+  color: white;
+  background-color: #457b9d;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
