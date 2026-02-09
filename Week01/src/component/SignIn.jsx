@@ -1,16 +1,17 @@
 import { useState } from "react";
-
+import "./SignIn.css"
 function SignIn({ show, onClose }) {
   return (
     <div className={`overlay ${show ? "show" : ""}`}>
-      <div className="form-login">
-        <span className="btn-close" onClick={onClose}>x</span>
-        <h3>Sign In</h3>
-        Username:
+      <div className="login-form">
+        <span className="close-btn" onClick={onClose}>×</span>
+
+        <h2>Login</h2>
+
         <input type="text" placeholder="Username" />
-        Password:
         <input type="password" placeholder="Password" />
-        <button className="btn-login">Log in</button>
+
+        <button className="login-btn">Login</button>
       </div>
     </div>
   );
