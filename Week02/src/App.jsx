@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import StudentInfo from "./components/StudentInfo";
-
+import CounterApp from "./components/CounterApp";
 function App() {
   const sinhvien = {
     ten: "Nguyen Phan Minh Man",
@@ -9,12 +9,12 @@ function App() {
     lop: "DHKTPM18B",
   };
   return (
-    <div>
-      <h1>Hello, World!</h1>
+  <CounterApp />
+    /*<div>
       <Header />
       <StudentInfo ten={sinhvien.ten} mssv={sinhvien.mssv} lop={sinhvien.lop} />
       <Footer />
-    </div>
+    </div>*/
   );
 }
 
