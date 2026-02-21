@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import StudentInfo from "./components/StudentInfo";
 import CounterApp from "./components/CounterApp";
 import FormInput from "./components/FormInput";
+import StatusBadge from "./components/StatusBadge";
 function App() {
   const sinhvien = {
     ten: "Nguyen Phan Minh Man",
@@ -11,7 +12,8 @@ function App() {
   };
   return (
     // <CounterApp />
-    <FormInput />
+    // <FormInput />
+    <StatusBadge status="online" />
     /*<div>
       <Header />
       <StudentInfo ten={sinhvien.ten} mssv={sinhvien.mssv} lop={sinhvien.lop} />
