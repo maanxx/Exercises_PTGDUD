@@ -4,6 +4,7 @@ import StudentInfo from "./components/StudentInfo";
 import CounterApp from "./components/CounterApp";
 import FormInput from "./components/FormInput";
 import StatusBadge from "./components/StatusBadge";
+import TodoApp from "./components/TodoApp";
 function App() {
   const sinhvien = {
     ten: "Nguyen Phan Minh Man",
@@ -13,7 +14,8 @@ function App() {
   return (
     // <CounterApp />
     // <FormInput />
-    <StatusBadge status="online" />
+    // <StatusBadge status="online" />
+    <TodoApp />
     /*<div>
       <Header />
       <StudentInfo ten={sinhvien.ten} mssv={sinhvien.mssv} lop={sinhvien.lop} />
