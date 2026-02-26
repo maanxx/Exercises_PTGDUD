@@ -19,4 +19,12 @@ export default function TodoApp() {
 
     setTodos(newTodo);
   };
+
+  return (
+    <div style={{textAlign: 'center', marginTop: '50px'}}>
+      <h1>Todo App</h1>
+      <TodoInput addTodo={addTodo}/>
+      <TodoList todos={todos} deleteTodo={deleteTodo}/>
+    </div>
+  );
 }
