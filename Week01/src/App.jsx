@@ -7,6 +7,24 @@ import ProductList from "./component/ProductList.jsx";
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
+
+  let markMass = 78;
+  let markHeight = 1.69;
+
+  let johnMass = 92;
+  let johnHeight = 1.95;
+
+  let markBMI = markMass / markHeight ** 2;
+  let johnBMI = johnMass / johnHeight ** 2;
+
+  let markHigherBMI = markBMI > johnBMI;
+
+  if (markHigherBMI) {
+    console.log(`Marks weights ${markMass} kg and is ${markHeight} m tall. John weights ${johnMass} kg and is ${johnHeight}
+          m tall.`);
+    console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`);
+  }
+
   return (
     /*
     <div style={{ padding: "40px" }}>
@@ -34,8 +52,11 @@ function App() {
         onClose={() => setShowLogin(false)}
       />
     </div>*/
-    <div>
+    /*<div>
       <ProductList />
+    </div>*/
+    <div>
+      <h1>Open F12 to see solutions</h1>
     </div>
   );
 }
