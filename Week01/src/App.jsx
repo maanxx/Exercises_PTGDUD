@@ -20,16 +20,17 @@ function App() {
   // let markHigherBMI = markBMI > johnBMI;
  
 
-  console.log("Changle01 and Changle02");
   if (markBMI > johnBMI) {
   console.log("Mark's BMI is higher than John's!")
   //   console.log(`Marks weights ${markMass} kg and is ${markHeight} m tall. John weights ${johnMass} kg and is ${johnHeight}
   //         m tall.`);
   //   console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`);
   }
-  if (johnBMI < markBMI) {
+  else if (johnBMI < markBMI) {
     console.log("John's BMI is higher than Mark's!")
-  } 
+  } else {
+    console.log("Both are equal!")
+  }
 
   return (
     /*
