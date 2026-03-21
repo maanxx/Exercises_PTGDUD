@@ -3,6 +3,7 @@ import Bai01 from "./components/Btap01";
 import Bai02 from "./components/Baitap02";
 import Bai03 from "./components/Btap03";
 import Bai04 from "./components/Btap04";
+import Bai05 from "./components/Btap05";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Bai01/> */}
       {/* <Bai02 /> */}
       {/* <Bai03 /> */}
-      <Bai04 />
+      {/* <Bai04 /> */}
+      <Bai05/>
     </>
   );
 }
