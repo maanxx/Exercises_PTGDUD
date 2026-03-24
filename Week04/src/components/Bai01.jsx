@@ -10,6 +10,8 @@ function Bai01() {
   //       .catch((err) => console.log(err));
   //   }, []);
 
+
+  // async/await
   useEffect(() => {
     const fetchUsers = async () => {
       try {
