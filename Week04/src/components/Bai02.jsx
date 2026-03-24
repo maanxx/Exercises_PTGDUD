@@ -12,7 +12,7 @@ function Bai02() {
       try {
         setLoading(true);
         setError(null);
-        const res = await fetch("https://jsonplaceholder.typicode.com/users");
+        const res = await fetch("https://jsonplaceholder.typicode.com/usersa");
 
         if (!res.ok) {
           throw new Error("API error!");
